@@ -132,14 +132,6 @@ module.exports = {
         display: 'standalone',
         icon: favicon,
       },
-    },
-    {
-      resolve: 'gatsby-plugin-prismic-preview',
-      options: {
-        repositoryName: 'gatsby-source-prismic-test-site',
-        linkResolver: require('./src/linkResolver'),
-        path: '/preview',
-      }
     },    
     // Must be placed at the end
     'gatsby-plugin-offline',
