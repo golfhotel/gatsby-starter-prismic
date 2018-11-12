@@ -105,8 +105,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-prismic-preview',
       options: {
-        repositoryName: 'gatsby-source-prismic-test-site',
-        linkResolver: require('./src/linkResolver'),
+        repositoryName: 'foobarbazfaz',
         path: '/preview',
       }
     },
