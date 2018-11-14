@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "LekoArts <hello@lekoarts.de>",
   "scripts": {
+    "start": "gatsby develop",
     "dev": "gatsby develop -o",
     "build": "gatsby build",
     "serve": "gatsby serve",
