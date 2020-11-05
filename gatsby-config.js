@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: 'foobarbazfaz',
+        repositoryName: 'gatsby',
         accessToken: `${process.env.API_KEY}`,
         linkResolver: () => post => `/${post.uid}`,
         htmlSerializer: () => (type, element, content) => {
